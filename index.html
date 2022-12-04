@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Final Project ~ Sudhanshu</title>
+    <!-- CSS -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <a href="#sign"><span>Upload</span></a>
+        <a href="#contact"><span>Contact</span></a>
+        <a href="#team"><span>Team</span></a>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="text-center">
+                    <h1 class="hero-heading">
+                        Hand Written Signature Recognition System
+                    </h1>
+                    <p class="hero-para">
+                        Upload. Verify. Validate.
+                    </p>
+                    <a href="#sign" class="custom-btn btn-7"><span>Upload Cheque</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies -->
+    <section id="technologies" class="technologies">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h1>Technologies Used</h1>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/python.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-details text-center">
+                            <div class="card-heading">
+                                <h1>Python</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/cnn.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-details text-center">
+                            <div class="card-heading">
+                                <h1>CNN</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/ann.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-details text-center">
+                            <div class="card-heading">
+                                <h1>ANN</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="assets/images/vgc16.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="card-details text-center">
+                            <div class="card-heading">
+                                <h1>VGG16 Model</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Iframe -->
+    <div id="sign" style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+        <iframe
+            id="UstreamIframe"
+            src="https://sudhanshusharma99-hand-written-signature-recognition-app-y9gps5.streamlit.app/?embedded=true"
+            width="100%" height="100%"
+            style="position:absolute; top:0; left: 0"
+            allowfullscreen
+            webkitallowfullscreen
+            frameborder="0"
+            referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+    </div>
+
+    <!-- Contact -->
+    <div class="container" id="contact">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 m-auto">
+                <div class="contact-form">
+                    <div class="text-center">
+                        <h3 class="small-title">Contact Us</h3>
+					    <h2 class="title">Get in Touch</h2>
+                    </div>
+                    <form
+                        action="https://formspree.io/f/mbjbnrge"
+                        method="POST">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="inputName">Name</label>
+                                    <input type="text" name="name" class="form-control" id="inputName" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="email" name="email" class="form-control" id="inputEmail" required>
+                                </div>
+                            </div>
+                        </div>            
+                        <div class="form-group">
+                            <label for="inputSubject">Subject</label>
+                            <input type="text" name="subject" class="form-control" id="inputSubject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMessage">Message</label>
+                            <textarea class="form-control" name="message" id="inputMessage" rows="5" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="custom-btn btn-7"><i class="fa fa-paper-plane"></i> Send</button>
+                        </div>            
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team -->
+    <section class="section-team" id="team">
+		<div class="container">
+			<!-- Start Header Section -->
+			<div class="row justify-content-center text-center">
+				<div class="col-md-8 col-lg-6">
+					<div class="header-section">
+						<h3 class="small-title">Our Experts</h3>
+						<h2 class="title">Let's meet with our team members</h2>
+					</div>
+				</div>
+			</div>
+			<!-- / End Header Section -->
+			<div class="row text-center d-flex justify-content-center">
+				<!-- Start Single Person -->
+				<div class="col-sm-6 col-lg-4 col-xl-3">
+					<div class="single-person">
+						<div class="person-image">
+							<img src="assets/images/sudhanshu.png" alt="">
+							<span class="icon">
+								<i class="fab fa-python"></i>
+							</span>
+						</div>
+						<div class="person-info">
+							<h3 class="full-name">Sudhanshu Sharma</h3>
+							<span class="speciality">Scrum Master</span>
+						</div>
+					</div>
+				</div>
+				<!-- / End Single Person -->
+			</div>
+            <div class="row text-center d-flex justify-content-center">
+                <!-- Start Single Person -->
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="single-person">
+                        <div class="person-image">
+                            <img src="assets/images/tanmay.jfif" alt="">
+                            <span class="icon">
+                                <i class="fab fa-python"></i>
+                            </span>
+                        </div>
+                        <div class="person-info">
+                            <h3 class="full-name">Tanmay Pareek</h3>
+                            <span class="speciality">Team Member 1</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- / End Single Person -->
+                <!-- Start Single Person -->
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="single-person">
+                        <div class="person-image">
+                            <img src="assets/images/niket.jpg" alt="">
+                            <span class="icon">
+                                <i class="fab fa-html5"></i>
+                            </span>
+                        </div>
+                        <div class="person-info">
+                            <h3 class="full-name">Niket Sharma</h3>
+                            <span class="speciality">Team Member 2</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- / End Single Person -->
+            </div>
+		</div>
+	</section>
+
+    <!-- Footer -->
+    <div class="fixed-bottom ">
+		<div style="min-height: 40px; background: linear-gradient(to right, #016cec, #00b5f7);">
+			<marquee style="color:#fff; margin-top: 7px;">
+				<h9>Designed & Developed by Team KodeShala. Students of Poornima Institute of Engineering and Technology, Jaipur</h9>
+			</marquee>
+		</div>
+	</div>
+
+    <!-- JavaScript -->
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
